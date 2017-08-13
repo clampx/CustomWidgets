@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Progress">
+        <attr name="colorArcOuter" format="color"/>
+        <attr name="colorArcMiddle" format="color"/>
+        <attr name="colorArcInner" format="color"/>
+    </declare-styleable>
+
+</resources>
