@@ -14,7 +14,7 @@ import android.view.View;
  * Created by ykhan on 08/08/2017.
  */
 
-public class Custom  extends View implements View.OnClickListener{
+public class NestedProgress extends View implements View.OnClickListener{
 
     private static final String TAG = "Custom";
     Paint paintBlue = new Paint();
@@ -40,11 +40,11 @@ public class Custom  extends View implements View.OnClickListener{
 
 
 
-    public Custom(Context context) {
+    public NestedProgress(Context context) {
         super(context,null);
         initPaint(context);
     }
-    public Custom(Context context, AttributeSet attrs) {
+    public NestedProgress(Context context, AttributeSet attrs) {
         super(context,attrs);
         TypedArray a = context.getTheme().obtainStyledAttributes(
                 attrs,
